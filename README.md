@@ -11,7 +11,7 @@ Note: *This script provides a less powerful alternative to the Google Maps Place
 ## How to use ?
 
 #### Installation
-Simply add the script at the end of your HTML structure by using the CDN, or download the autocomplete.js as well as icon.svg.
+Simply add the script at the end of your HTML structure by using the CDN, or download the autocomplete.js.
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/rayanworkout/French-Address-Autocomplete@master/autocomplete.js" integrity="sha256-P9vZEaiXEfpubFPH86pstIgvHJtSnlHkkVu3mmQClGc=" crossorigin="anonymous"></script>
@@ -74,6 +74,7 @@ Remarque : Ce script fournit une alternative moins puissante à l'API Google Map
 ### Utilisation
 
 Il suffit simplement d'ajouter le lien du CDN à la fin de votre script HTML comme ci-dessous, puis d'initialiser la fonction.
+Vous pouvez également télécharger autocomplete.js en local et l'intégrer à votre projet.
 
 ```html
   <script src="https://cdn.jsdelivr.net/gh/rayanworkout/French-Address-Autocomplete@master/autocomplete.js" integrity="sha256-P9vZEaiXEfpubFPH86pstIgvHJtSnlHkkVu3mmQClGc=" crossorigin="anonymous"></script>
@@ -94,8 +95,8 @@ Note: la fonction n'accepte qu'un champ, si vous utilisez plusieurs champs, il f
 ### Vous êtes prêt à utiliser l'autocomplete !
 
 
-## Pourquoi utiliser la complétion automatique des adresses françaises ?
-Ce script exploite une API émise par le gouvernement, offrant des suggestions d'adresses précises et à jour pour les emplacements français.
+## Pourquoi utiliser la complétion automatique des adresses ?
+Ce script exploite une API émise par le gouvernement, offrant des suggestions d'adresses précises et à jour pour toute la France.
 
 En intégrant cette fonctionnalité dans les formulaires d'adresse de votre site web, vous offrez aux utilisateurs un moyen efficace et simple de saisir des adresses, et vous augmentez la précision des données récoltées.
 
@@ -106,7 +107,7 @@ Lien vers l'API du gouvernement: https://adresse.data.gouv.fr/api-doc/adresse
 
 - **Intégration facile** : Il suffit d'inclure le script, et vos champs de saisie d'adresse bénéficieront de la fonctionnalité de complétion automatique.
 
-- **Suggestions précises** : Utilise des APIs émises par le gouvernement pour fournir des suggestions d'adresses françaises précises et validées.
+- **Suggestions précises** : Cette API fournit des adresses précises et valides.
 
 - **Gratuit** : Cette API est gratuitement mise à disposition par le gouvernement, vous pouvez donc améliorer votre site web sans coût supplémentaire.
 
