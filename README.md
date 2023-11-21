@@ -14,7 +14,7 @@ Note: *This script provides a less powerful alternative to the Google Maps Place
 Simply add the script at the end of your HTML structure by using the CDN, or download the autocomplete.js as well as icon.svg.
 
 ```html
-  <script src="https://cdn.jsdelivr.net/gh/rayanworkout/FrenchAddressAutocomplete@master/autocomplete.js" integrity="sha256-X8vB3aTPSPnYlwXNnu6TrvcMlVqChncetluq37Ejokg=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/rayanworkout/French-Address-Autocomplete@master/autocomplete.js" integrity="sha256-P9vZEaiXEfpubFPH86pstIgvHJtSnlHkkVu3mmQClGc=" crossorigin="anonymous"></script>
 
 ```
 
@@ -76,7 +76,7 @@ Remarque : Ce script fournit une alternative moins puissante à l'API Google Map
 Il suffit simplement d'ajouter le lien du CDN à la fin de votre script HTML comme ci-dessous, puis d'initialiser la fonction.
 
 ```html
-  <script src="https://cdn.jsdelivr.net/gh/rayanworkout/FrenchAddressAutocomplete@master/autocomplete.js" integrity="sha256-X8vB3aTPSPnYlwXNnu6TrvcMlVqChncetluq37Ejokg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/rayanworkout/French-Address-Autocomplete@master/autocomplete.js" integrity="sha256-P9vZEaiXEfpubFPH86pstIgvHJtSnlHkkVu3mmQClGc=" crossorigin="anonymous"></script>
 
 ```
 
