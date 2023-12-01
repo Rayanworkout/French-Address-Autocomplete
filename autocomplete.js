@@ -58,9 +58,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const initFrenchAutocomplete = (input) => {
 
-  // Identify the input field to autocomplete
-  // const input = document.querySelector('#frenchAddressAutocomplete');
-
   // Creating a dropdown container for the suggestions
   const dropdownList = document.createElement('div');
   dropdownList.classList.add('dropdown');
@@ -110,7 +107,7 @@ const initFrenchAutocomplete = (input) => {
 
       // We also add a logo before the address
       const img = document.createElement('img');
-      img.src = 'https://cdn.jsdelivr.net/gh/rayanworkout/FrenchAddressAutocomplete@master/icon.svg';
+      img.src = 'https://cdn.jsdelivr.net/gh/rayanworkout/French-Address-Autocomplete@master/icon.svg';
       img.classList.add('icon');
       suggestion.insertBefore(img, suggestion.firstChild);
 
@@ -171,7 +168,17 @@ const initFrenchAutocomplete = (input) => {
             dropdownList.innerHTML = '';
           }
         }
+      });
 
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function (event) {
+        const isClickInsideInput = input.contains(event.target);
+        const isClickInsideDropdown = dropdownList.contains(event.target);
+
+        if (!isClickInsideInput && !isClickInsideDropdown) {
+          // Click was outside both input and dropdown, close dropdown
+          dropdownList.innerHTML = '';
+        }
       });
     }
   });
