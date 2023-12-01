@@ -110,7 +110,7 @@ const initFrenchAutocomplete = (input) => {
 
       // We also add a logo before the address
       const img = document.createElement('img');
-      img.src = 'https://cdn.jsdelivr.net/gh/rayanworkout/FrenchAddressAutocomplete@master/icon.svg';
+      img.src = 'https://cdn.jsdelivr.net/gh/rayanworkout/French-Address-Autocomplete@master/icon.svg';
       img.classList.add('icon');
       suggestion.insertBefore(img, suggestion.firstChild);
 
